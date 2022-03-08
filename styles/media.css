@@ -1,0 +1,57 @@
+@media screen and (max-width: 760px){
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    h2{
+        font-size: 38px;
+    }
+    .button {
+        margin: 0 auto;
+        width: 50%;
+        align-self: center;
+    }
+    .brain{
+        display: none;
+    }
+    ul {
+        text-align: center;
+    }
+    p {
+        text-align: center;
+    }
+
+}
+@media screen and (max-width: 1045px) {
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    main {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    h2{
+        font-size: 38px;
+    }
+    .button {
+        margin: 0 auto;
+        width: 50%;
+        align-self: center;
+    }
+    .brain{
+        display: none;
+    }
+    ul {
+        text-align: center;
+    }
+    p {
+        text-align: center;
+    }
+}
